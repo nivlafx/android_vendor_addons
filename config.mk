@@ -368,6 +368,10 @@ PRODUCT_PACKAGES += \
     VolumeOutline \
     VolumeShadedLayer \
     VolumeAOSPRevamped
+    
+# Hide IME space
+PRODUCT_PACKAGES += \
+    GesturalNavigationHideIME
 
 # Include {Lato,Rubik} fonts
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
